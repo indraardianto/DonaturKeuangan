@@ -900,7 +900,7 @@
 
 
 <!-- custom-chart js -->
-<script src="assets/js/pages/dashboard-main.js"></script>
+<script src="{{asset('ablepro-master')}}/js/pages/dashboard-main.js"></script>
 </body>
 
 </html>
