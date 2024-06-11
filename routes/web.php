@@ -15,10 +15,14 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard.index');
 });
 
+Route::get('/dashboard',[DashboardController::class,'index']);
 
+// Route::get('/dashboard', function () {
+//     return view('index');
+// });
 
-Route::get('/index',[DashboardController::class, 'index']);
+// Route::get('/index',[DashboardController::class, 'index']);
 
