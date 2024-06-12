@@ -20,5 +20,5 @@ Route::get('/', function () {
 
 
 
-Route::get('/index',[DashboardController::class, 'index']);
+Route::get('dashboard/index',[DashboardController::class, 'index']);
 
