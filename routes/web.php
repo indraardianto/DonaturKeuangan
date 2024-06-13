@@ -24,5 +24,9 @@ Route::get('/dashboard',[DashboardController::class,'index']);
 //     return view('index');
 // });
 
+
+Route::get('dashboard/index',[DashboardController::class, 'index']);
+//
 // Route::get('/index',[DashboardController::class, 'index']);
+
 
