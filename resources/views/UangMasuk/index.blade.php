@@ -140,7 +140,41 @@
         </div>
         <!-- [ breadcrumb ] end -->
 
-        
+ <!-- support-section start -->
+ <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0" align="center">Rp 30.200</h2>
+                            </div>
+                            <div class="card-footer bg-succes text-white">
+                                <div><h6>Total Pemasukan</h6></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0" align="center">Rp 30.200</h2>
+                            </div>
+                            <div class="card-footer bg-danger text-white">
+                                <div><h6>Total Pengeluaran</h6></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0" align="center">350</h2>
+                            </div>
+                            <div class="card-footer bg-warning text-white">
+                                <div><h6>Saldo Akhir</h6></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- support-section end --
+       
                
 
 @endsection
