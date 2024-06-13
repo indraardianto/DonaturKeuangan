@@ -33,7 +33,7 @@
 				
 				<div class="">
 					<div class="main-menu-header">
-						<img class="img-radius" src="{{asset('ablepro-master')}}/dist/assets/images/user/avatar-2.jpg" alt="User-Profile-Image">
+						<img class="img-radius">
 						<div class="user-details">
 							<div id="more-details">UX Designer <i class="fa fa-caret-down"></i></div>
 						</div>
