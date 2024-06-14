@@ -123,7 +123,6 @@
                         <span class="d-block m-t-5">use class <code>table-striped</code> inside table element</span>
                     </div>
                     <div class="card-body table-border-style">
-                        <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -162,9 +161,10 @@
                                         <td>14.600.000</td>
                                         <td>Hewan Qurban</td>
 										<td>1.400.000</td>
-										<td>.</td>
+										<td></td>
                                     </tr>
                                 </tbody>
+								<div class="table-responsive">
                             </table>
                         </div>
                     </div>
