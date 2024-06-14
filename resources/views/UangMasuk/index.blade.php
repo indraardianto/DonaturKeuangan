@@ -1,5 +1,5 @@
 @extends('template.uang')
-@section('masuk')             
+@section('chart')             
            <!-- [ Header ] start -->
 	<header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
 		
@@ -118,9 +118,27 @@
 	<!-- [ Header ] end -->
 
 	
- <h5>Striped Table</h5>
-                        <span class="d-block m-t-5">use class <code>table-striped</code> inside table element</span>
+	<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">Dashboard Keuangan</h5>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#!">Dashboard Keuangan</a></li>
+                        </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+
                     <div class="card-body table-border-style">
                             <table class="table table-striped">
                                 <thead>
