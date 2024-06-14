@@ -127,30 +127,42 @@
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Username</th>
+                                        <th>TANGGAL</th>
+                                        <th>URAIAN</th>
+                                        <th>UANG MASUK</th>
+                                        <th>UANG KELUAR</th>
+										<th>KETERANGAN</th>
+										<th>SALDO</th>
+										<th>#</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td>20 May 2024</td>
+                                        <td>Markonah</td>
+                                        <td>13.500.00</td>
+                                        <td>3.700.000</td>
+										<td>Ranjang Santri</td>
+										<td>9.800.000</td>
+										<td>.</td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>08 February 2025</td>
+                                        <td>Afghan Fawwaz</td>
+                                        <td>10.000.000</td>
+										<td>1.930.000</td>
+                                        <td>Tempat Wudhu</td>
+										<td>8.170.000</td>
+										<td>.</td>
                                     </tr>
                                     <tr>
-                                        <td>3</td>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+										<td>05 Juni 2024</td>
+                                        <td>Trischa</td>
+                                        <td>16.000.000</td>
+                                        <td>14.600.000</td>
+                                        <td>Hewan Qurban</td>
+										<td>1.400.000</td>
+										<td>.</td>
                                     </tr>
                                 </tbody>
                             </table>
