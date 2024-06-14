@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,18 +16,11 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('dashboard.index');
+    return view('sesi.index');
 });
 
 Route::get('/dashboard',[DashboardController::class,'index']);
-
-// Route::get('/dashboard', function () {
-//     return view('index');
-// });
-
-
-Route::get('dashboard/index',[DashboardController::class, 'index']);
-//
-// Route::get('/index',[DashboardController::class, 'index']);
+Route::get('/sesi',[SessionController::class,'index']);
+Route::post('/sesi/login',[SessionController::class,'login']);
 
 
