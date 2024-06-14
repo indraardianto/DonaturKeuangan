@@ -116,31 +116,77 @@
 			
 	</header>
 	<!-- [ Header ] end -->
-	
-	
 
-<!-- [ Main Content ] start -->
-<div class="pcoded-main-container">
-    <div class="pcoded-content">
-        <!-- [ breadcrumb ] start -->
-        <div class="page-header">
-            <div class="page-block">
-                <div class="row align-items-center">
-                    <div class="col-md-12">
-                        <div class="page-header-title">
-                            <h5 class="m-b-10">Dashboard Keuangan</h5>
+	
+            <!-- Chart Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-5">
+                        <div class="bg-secondary rounded h-100 p-4">
+                            <h6 class="mb-4">Doughnut Chart</h6>
+                            <canvas id="doughnut-chart"></canvas>
                         </div>
-                        <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#!">Dashboard Keuangan</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- [ breadcrumb ] end -->
+            <!-- Chart End -->
 
-        
+            <!-- Recent Sales Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                        
+                    <div class="d-flex align-items-center justify-content-between mb-4 pt-4">
+                        <h6 class="mb-0">Recent Salse</h6> 
+                        <p align-center>
+                        <a class="btn btn-sm btn-primary" href="{{route('tambahbuku')}}">Tambah Data Buku</a>                       
+                        <a class="btn btn-sm btn-success" href="{{route('exportbuku')}}">Excel</a>
+                         <a class="btn btn-sm btn-success" href="{{route('exportbukupdf')}}">PDF</a>
+                        
+                        </p>
+                    </div>
+                    <div class="table-responsive">                        
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-center">
+                                    <th scope="col">No</th>
+                                    <th scope="col">Nama Buku</th>
+                                    <th scope="col">Genre Buku</th>
+                                    <th scope="col">Jumlah Buku</th> 
+                                    <th scope="col">Nama Penerbit</th> 
+                                    <th scope="col">Action</th>                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                 $no = 1;
+                                ?>   
+                               @foreach ($query as $item)                                    
+                                <tr class="text-center"> 
+                                    <td>{{$no}}</td>
+                                    <td>{{$item->nama_buku}}</td>
+                                    <td>{{$item->genre__buku}}</td>
+                                    <td>{{$item->jumlah_buku}}</td>
+                                    <td>{{$item->penerbit->nama_penerbit}}</td>                                   
+                                    <td class="text-center">
+                                        <a class="btn btn-warning rounded-pill m-2" href="{{route('editbuku',$item->id)}}">Edit</a>
+                                        <a class="btn btn-primary rounded-pill m-2" href="{{route('hapusbuku',$item->id)}}" onclick="return confirm('yakin gak luu? Kalo gak yakin mah jangan..! ')" >Hapus</a>
+                                    </td>
+                                </tr>
+                                 <?php
+                                 $no++;
+                                ?> 
+                                @endforeach                                                                                              
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Recent Sales End -->
+       
+	
+	
+
+
                
 
 @endsection
