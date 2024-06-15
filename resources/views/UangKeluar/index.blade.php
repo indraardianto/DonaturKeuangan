@@ -145,7 +145,7 @@
                                     <tr>
                                         <th>TANGGAL</th>
                                         <th>URAIAN</th>
-                                        <th>UANG MASUK</th>
+                                        <th>UANG KELUAR</th>
 										<th>KETERANGAN</th>
 										<th>#</th>
                                     </tr>
@@ -154,21 +154,21 @@
                                     <tr>
                                         <td>20 May 2024</td>
                                         <td>Markonah</td>
-                                        <td>13.500.00</td>
+                                        <td>9.700.000</td>
 										<td>Ranjang Santri</td>
 										<td>.</td>
                                     </tr>
                                     <tr>
                                         <td>08 February 2025</td>
                                         <td>Afghan Fawwaz</td>
-                                        <td>10.000.000</td>
+                                        <td>4.300.000</td>
                                         <td>Tempat Wudhu</td>
 										<td>.</td>
                                     </tr>
                                     <tr>
 										<td>05 Juni 2024</td>
                                         <td>Trischa</td>
-                                        <td>16.000.000</td>
+                                        <td>14.600.000</td>
                                         <td>Hewan Qurban</td>
 										<td>-</td>
                                     </tr>

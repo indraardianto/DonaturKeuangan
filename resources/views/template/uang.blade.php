@@ -33,7 +33,7 @@
 				
 				<div class="">
 					<div class="main-menu-header">
-						<img class="img-radius" src="{{asset('ablepro-master')}}/dist/assets/images/user/avatar-2.jpg" alt="User-Profile-Image">
+						<img class="img-radius">
 						<div class="user-details">
 							<div id="more-details">UX Designer <i class="fa fa-caret-down"></i></div>
 						</div>
@@ -48,46 +48,19 @@
 				</div>
 				
 				<ul class="nav pcoded-inner-navbar ">
-					<li class="nav-item pcoded-menu-caption">
-					    <label>Navigation</label>
-					</li>
 					<li class="nav-item">
 					    <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
 					</li>
+					<li class="nav-item">
+					    <a href="form_elements.html" class="nav-link "><span class="pcoded-micon"> <i class="fas fa-users"></i></span><span class="pcoded-mtext">Users</span></a>
+					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Keuangan</span></a>
+					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="fas fa-wallet"></i></span><span class="pcoded-mtext">Keuangan</span></a>
 					    <ul class="pcoded-submenu">
 					        <li><a href="" target="">Uang Masuk</a></li>
 					        <li><a href="" target="">Uang Keluar</a></li>
 					    </ul>
 					</li>
-					
-					<li class="nav-item">
-					    <a href="form_elements.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Forms</span></a>
-					</li>
-					<li class="nav-item">
-					    <a href="tbl_bootstrap.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Bootstrap table</span></a>
-					</li>
-					<li class="nav-item pcoded-menu-caption">
-					    <label>Chart & Maps</label>
-					</li>
-					<li class="nav-item">
-					    <a href="chart-apex.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a>
-					</li>
-					<li class="nav-item">
-					    <a href="map-google.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Maps</span></a>
-					</li>
-					<li class="nav-item pcoded-menu-caption">
-					    <label>Pages</label>
-					</li>
-					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-lock"></i></span><span class="pcoded-mtext">Authentication</span></a>
-					    <ul class="pcoded-submenu">
-					        <li><a href="auth-signup.html" target="_blank">Sign up</a></li>
-					        <li><a href="auth-signin.html" target="_blank">Sign in</a></li>
-					    </ul>
-					</li>
-					<li class="nav-item"><a href="sample-page.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>
 
 				</ul>
 				
@@ -106,7 +79,7 @@
 	</nav>
 	<!-- [ navigation menu ] end -->
 
-    @yield('masuk')
+    @yield('chart')
     
 	
       
