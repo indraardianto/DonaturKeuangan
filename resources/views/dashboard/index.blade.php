@@ -143,33 +143,39 @@
         <!-- support-section start -->
 
 			<div class="row">
+				<style>
+					.my-element {
+						margin: -20px;
+					}
+				</style>
                     <div class="col-sm-4">
                         <div class="card support-bar overflow-hidden">
-                            <div class="card-body pb-0">
-                                <h2 class="m-0" align="center">Rp 30.200</h2>
+                            <div class="card-body pb-8">
+                                <h2 class="m-0" align="center" style="color: #97c262;">Rp 30.200</h2>
                             </div>
                             <div class="card-footer bg-success text-white">
-                                <div><h6>Total Pemasukan</h6></div>
+                                <div><h5 style="color: white">Total Pemasukan</h5></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="card support-bar overflow-hidden">
-                            <div class="card-body pb-0">
-                                <h2 class="m-0" align="center">Rp 30.200</h2>
+                            <div class="card-body pb-8">
+                                <h2 class="m-0" align="center" style="color: #e64524;" >Rp 30.200</h2>
+								<i class="fa-solid fa-square-poll-vertical" style="color: #abd874;"></i>
                             </div>
                             <div class="card-footer bg-danger text-white">
-                                <div><h6>Total Pengeluaran</h6></div>
+                                <div><h5 style="color: white">Total Pengeluaran</h5></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="card support-bar overflow-hidden">
-                            <div class="card-body pb-0">
-                                <h2 class="m-0" align="center">350</h2>
+                            <div class="card-body pb-8">
+                                <h2 class="m-0" align="center" style="color: #efaa14;">350</h2>
                             </div>
                             <div class="card-footer bg-warning text-white">
-                                <div><h6>Saldo Akhir</h6></div>
+                                <div><h5 style="color: white">Saldo Akhir</h5></div>
                             </div>
                         </div>
                     </div>
