@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SessionController;
+use App\Http\Controllers\masukController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('sesi.index');
 });
+
+Route::get('/dashboard',[DashboardController::class,'index']);
+Route::get('/sesi',[SessionController::class,'index']);
+Route::post('/sesi/login',[SessionController::class,'login'])->name('submitlogin');
+Route::get('/UangMasuk',[masukController::class,'index']);
+
+
